@@ -19,7 +19,7 @@ const HeroSection = () => {
         gap={5}
         pt={{base:3,md:5,lg:20}}
         pb={5}
-        flexDirection={{base:"column", md:"row", lg:"row"}}
+        flexDirection={{base:"column", md:"column", lg:"row"}}
         justifyContent="space-between"
       >
         <Features
@@ -34,7 +34,7 @@ const HeroSection = () => {
             top="100px"
             left="750px"
             height={{base: 350, md: "auto", lg:480}}
-            // w={300}
+            objectFit="cover"
             borderRadius={20}
             src={LL_homepage}
             alt="homepage"

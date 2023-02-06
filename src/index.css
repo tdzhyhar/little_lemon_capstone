@@ -21,7 +21,11 @@ a:visited {
 }
 
 a:active {
-  color: blue;
+  color: black;
+}
+
+a:active svg {
+  color: rgb(244,206,20);
 }
 
 .testimony::-webkit-scrollbar {

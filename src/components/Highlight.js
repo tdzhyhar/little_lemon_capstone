@@ -35,7 +35,6 @@ const Highlight = () => {
                 ml={{ base: "auto", sm: "1rem", md: "4rem", lg: "10rem" }}
                 mr={{ base: "auto", sm: "1rem", md: "4rem", lg: "10rem" }}
                 flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
-                justifyContent="flex-start"
                 spacing={{ base: 'auto', md: "auto", lg: 2 }}
                 gap={7}
                 display="flex"
@@ -47,16 +46,16 @@ const Highlight = () => {
             >
                 <VStack
                     backgroundColor="rgb(217,217,217)"
-                    borderRadius={35}
                     display="flex"
                     alignItems="center"
                     _hover={{ opacity: "80%" }}
                     width="100%"
+                    borderRadius={20}
                 >
                     <Image
                         display="flex"
                         width="auto"
-                        borderRadius={35}
+                        borderTopRadius={20}
                         src={LL_greeksalad}
                         alt="Greek Salad"
                         objectFit="cover"
@@ -78,8 +77,7 @@ const Highlight = () => {
                     width="100%"
                 >
                     <Image
-                        // size={{base: "auto", md: "auto", lg:"auto"}}
-                        borderRadius={35}
+                        borderTopRadius={20}
                         src={LL_bruschetta}
                         alt="bruschetta"
                         width="auto"
@@ -103,8 +101,7 @@ const Highlight = () => {
 
                 >
                     <Image
-                        // size={{base: "auto", md: "auto", lg:"auto"}}
-                        borderRadius={35}
+                        borderTopRadius={20}
                         src={LL_pasta}
                         alt="pasta"
                         width="auto"
